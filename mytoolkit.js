@@ -461,7 +461,7 @@ var MyToolkit = (function() {
         
         /**create draggable scroll thumb */
         var bar = draw.rect(60,130).fill({color:"black"})
-        //bar.draggable()
+        
 
         /**Group scroll attributes */
         var group = draw.group()
