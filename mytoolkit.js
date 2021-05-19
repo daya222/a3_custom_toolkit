@@ -1,6 +1,6 @@
 import {SVG} from './svg.min.js';
 
-import '@svgdotjs/svg.draggable.js'
+
 
 /** Custom toolkit with 7 widgets */
 var MyToolkit = (function() {
@@ -461,7 +461,7 @@ var MyToolkit = (function() {
         
         /**create draggable scroll thumb */
         var bar = draw.rect(60,130).fill({color:"black"})
-        bar.draggable()
+        //bar.draggable()
 
         /**Group scroll attributes */
         var group = draw.group()
