@@ -1,5 +1,6 @@
 import {SVG} from './svg.min.js';
 
+import '@svgdotjs/svg.draggable.js'
 
 /** Custom toolkit with 7 widgets */
 var MyToolkit = (function() {
