@@ -8,7 +8,7 @@ var MyToolkit = (function() {
 
     /** Canvas space - page component */
     var draw = SVG().addTo('body').size(900, 900);
-    var outline = draw.rect("100%", "100%").fill("blue")
+    var outline = draw.rect("100%", "100%").fill("white")
     var defaultState = "idle"
     
 
